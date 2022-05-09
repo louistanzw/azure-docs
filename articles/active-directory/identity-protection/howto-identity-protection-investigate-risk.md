@@ -17,13 +17,13 @@ ms.collection: M365-identity-device-management
 ---
 # How To: Investigate risk
 
-Identity Protection provides organizations with three reports they can use to investigate identity risks in their environment. These reports are the **risky users**, **risky sign-ins**, and **risk detections**. Investigation of events is key to better understanding and identifying any weak points in your security strategy.
+Identity Protection provides organizations with four reports they can use to investigate identity risks in their environment. These reports are the **risky users**, **Risky workload identities (preview)**, **risky sign-ins**, and **risk detections**. Investigation of events is key to better understanding and identifying any weak points in your security strategy.
 
-All three reports allow for downloading of events in .CSV format for further analysis outside of the Azure portal. The risky users and risky sign-ins reports allow for downloading the most recent 2500 entries, while the risk detections report allows for downloading the most recent 5000 records.
+All four reports allow for downloading of events in .CSV format for further analysis outside of the Azure portal. The risky users and risky sign-ins reports allow for downloading the most recent 2500 entries, while the risk detections report allows for downloading the most recent 5000 records.
 
 Organizations can take advantage of the Microsoft Graph API integrations to aggregate data with other sources they may have access to as an organization.
 
-The three reports are found in the **Azure portal** > **Azure Active Directory** > **Security**.
+The four reports are found in the **Azure portal** > **Azure Active Directory** > **Security** > **Report**.
 
 ## Navigating the reports
 
